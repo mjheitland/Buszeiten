@@ -1,0 +1,34 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "buszeiten",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Abfahrt",
+                    "slots": [],
+                    "samples": [
+                        "Wann fährt der nächste Bus ab",
+                        "Wann ist die nächste Abfahrt",
+                        "Was ist die nächste Abfahrt",
+                        "Was sind die nächsten Buszeiten",
+                        "Wann sind die nächsten Buszeiten",
+                        "Wann fährt die Fünf das nächste Mal ab"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
